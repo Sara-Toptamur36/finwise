@@ -1,243 +1,455 @@
-# 💰 FinWise — Yapay Zeka Destekli Kişisel Finans Analizi
+<div align="center">
 
-> Banka ekstrelerinizi yükleyin, yapay zeka harcamalarınızı analiz etsin.
+<img src="frontend/public/favicon.svg" width="80" alt="FinWise Logo" />
 
-FinWise, CSV veya Excel formatındaki banka ekstrelerinizi analiz eden, kategori sınıflandırması yapan, gelecek ay harcamanızı tahmin eden ve PDF rapor oluşturan kişisel finans asistanıdır.
+# FinWise
+
+### Yapay Zeka Destekli Kişisel Finans Analizi
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.111-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-3-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-ML-brightgreen?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
+**Banka ekstrelerinizi yükleyin — yapay zeka harcamalarınızı anlasın, geleceğinizi tahmin etsin.**
+
+[🚀 Hızlı Başlangıç](#-hızlı-başlangıç) · [✨ Özellikler](#-özellikler) · [🤖 ML Pipeline](#-ml-pipeline) · [📡 API](#-api-endpointleri) · [🤝 Katkı](#-katkıda-bulunma)
+
+</div>
+
+---
+
+## 📖 Proje Nedir?
+
+FinWise, CSV veya Excel formatındaki **banka ekstrelerinizi** analiz ederek size kapsamlı bir finansal tablo sunan kişisel finans asistanıdır. Makine öğrenmesi modellerini birbirine bağlayan 4 aşamalı bir AI pipeline'ı sayesinde:
+
+- İşlemlerinizi **otomatik olarak kategorize eder** ("MIGROS" → Market & Gıda)
+- Harcama alışkanlıklarınızdan **kişisel profilinizi** çıkarır
+- **Gelecek ay tahmini** yapar ve tahmin nedenini açıklar
+- "Tasarruf Et / Yatırım Yap / Beklet" şeklinde **eylem önerisi** sunar
+- Tüm bunları **PDF rapora** dönüştürür
+
+> Kayıt olmadan da 3 hazır demo profil ile uygulamayı keşfedebilirsiniz.
 
 ---
 
 ## ✨ Özellikler
 
-| Özellik | Açıklama |
-|---|---|
-| 📊 **Kategori Analizi** | TF-IDF + SVM ile işlem açıklamalarını otomatik sınıflandırır |
-| 🔮 **Harcama Tahmini** | LightGBM + SHAP ile gelecek ay tahmini ve açıklama |
-| 🎯 **Karar Desteği** | XGBoost ile Tasarruf Et / Yatırım Yap / Beklet önerisi |
-| 🎭 **Senaryo Testi** | "X kadar daha harcasam ne olur?" sorusuna yanıt |
-| 📄 **PDF Rapor** | Grafikli, görsel analiz raporu (kategori, trend, AI kararı) |
-| 📜 **Rapor Geçmişi** | Geçmiş analizlere dilediğiniz zaman erişin |
-| 🔐 **Güvenli Hesap** | SHA-256 şifreleme, JWT token, şifre değiştirme |
-| 🎭 **Demo Modu** | Kayıt olmadan 3 hazır profille uygulamayı deneyin |
+| # | Özellik | Açıklama |
+|---|---------|----------|
+| 🏷️ | **Otomatik Kategorizasyon** | TF-IDF + SVM ile 13 farklı harcama kategorisi |
+| 👤 | **Harcama Profili** | K-Means kümeleme ile kişisel finansal profil |
+| 📈 | **Gelecek Ay Tahmini** | LightGBM + SHAP ile tahmin ve açıklama |
+| 🤖 | **AI Finansal Teşhis** | XGBoost ile Tasarruf Et / Yatırım Yap / Beklet |
+| 💡 | **Açıklanabilir Karar** | "Neden bu sonuç?" sorusuna sade yanıt (SHAP) |
+| 🔮 | **Senaryo Testi** | "X kadar daha harcasam ne olur?" simülasyonu |
+| 📄 | **PDF Rapor** | Grafikli, görsel analiz raporu (kategori, trend, AI) |
+| 📜 | **Rapor Geçmişi** | Önceki analizlere istediğiniz zaman erişin |
+| 🎭 | **Demo Modu** | Kayıt gerekmez — 3 hazır profille hemen deneyin |
+| 🔐 | **Güvenli Hesap** | SHA-256 şifre, Bearer token, güvenli şifre değiştirme |
 
 ---
 
 ## 🛠️ Teknoloji Yığını
 
-**Frontend**
-- React 18 + Vite + Tailwind CSS
-- Recharts (grafikler)
-- React Router v6
+### Backend
+| Paket | Versiyon | Kullanım |
+|-------|----------|---------|
+| **FastAPI** | 0.111 | REST API çerçevesi |
+| **Uvicorn** | 0.29 | ASGI web sunucusu |
+| **Pandas** | 2.2 | Veri işleme |
+| **OpenPyXL** | 3.1 | Excel okuma/yazma |
+| **ReportLab** | 4.2 | PDF oluşturma |
+| **Matplotlib** | — | PDF içi grafikler |
+| **scikit-learn** | — | TF-IDF, SVM, K-Means |
+| **LightGBM** | — | Harcama tahmini |
+| **XGBoost** | — | Karar destek modeli |
+| **SHAP** | — | Model açıklanabilirliği |
 
-**Backend**
-- FastAPI (Python 3.13) + Uvicorn
-- Pandas + OpenPyXL (veri işleme)
-- ReportLab + Matplotlib (PDF oluşturma)
-
-**Makine Öğrenmesi**
-- Stage 1: TF-IDF + SVM — Kategori sınıflandırması
-- Stage 2: K-Means + Isolation Forest — Kullanıcı profili & anomali
-- Stage 3: LightGBM + SHAP — Harcama tahmini
-- Stage 4: XGBoost — Eylem önerisi (Coach)
+### Frontend
+| Paket | Versiyon | Kullanım |
+|-------|----------|---------|
+| **React** | 18 | UI kütüphanesi |
+| **Vite** | 5 | Build aracı |
+| **Tailwind CSS** | 3 | Stil çerçevesi |
+| **Recharts** | 2.12 | Grafikler |
+| **React Router** | 6 | Sayfa yönlendirme |
+| **Axios** | 1.6 | HTTP istemcisi |
 
 ---
 
-## 🚀 Kurulum ve Çalıştırma
+## 🏗️ Proje Yapısı
 
-### Gereksinimler
-- Python 3.10 veya üzeri
-- Node.js 18 veya üzeri
+```
+finwise/
+│
+├── 📂 backend/                        # FastAPI backend
+│   ├── main.py                        # Uygulama giriş noktası & CORS
+│   ├── requirements.txt               # Python bağımlılıkları
+│   │
+│   ├── 📂 routers/
+│   │   ├── auth.py                    # Kayıt · Giriş · Şifre değiştirme
+│   │   ├── analysis.py                # Dosya yükleme · Analiz · Geçmiş
+│   │   ├── reports.py                 # PDF & Excel rapor oluşturma
+│   │   ├── scenario.py                # Senaryo simülasyonu
+│   │   └── demo.py                    # Demo profil verileri
+│   │
+│   └── 📂 services/
+│       └── pipeline_service.py        # ML pipeline → API köprüsü
+│
+├── 📂 frontend/                       # React + Vite frontend
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── tailwind.config.js
+│   │
+│   └── 📂 src/
+│       ├── 📂 pages/
+│       │   ├── LandingPage.jsx        # Ana / karşılama sayfası
+│       │   ├── Dashboard.jsx          # Gösterge paneli
+│       │   ├── AnalyzePage.jsx        # Analiz sonuçları & sekmeler
+│       │   ├── ScenarioPage.jsx       # "Ya şöyle olsaydı?" testi
+│       │   ├── ReportsPage.jsx        # Rapor geçmişi
+│       │   ├── SettingsPage.jsx       # Hesap & model ayarları
+│       │   ├── LoginPage.jsx          # Giriş
+│       │   └── RegisterPage.jsx       # Kayıt
+│       │
+│       ├── 📂 components/
+│       │   ├── Layout.jsx             # Sayfa iskeleti (sidebar + header)
+│       │   ├── Sidebar.jsx            # Navigasyon menüsü
+│       │   ├── Header.jsx             # Üst bar
+│       │   ├── Logo.jsx               # FinWise SVG logosu
+│       │   └── PasswordInput.jsx      # Şifre göster/gizle bileşeni
+│       │
+│       ├── 📂 context/
+│       │   └── AuthContext.jsx        # Global auth & analiz state
+│       │
+│       └── 📂 hooks/
+│           └── useSettings.js         # localStorage model ayarları
+│
+├── 🤖 bank_ai_pipeline.py             # 4 aşamalı ana ML pipeline
+├── ⚙️  rules_engine.py                # Kural tabanlı karar motoru
+├── 🔒 kvkk_masker.py                  # Kişisel veri maskeleme (KVKK)
+├── 👥 demo_profiles.json              # 3 demo kullanıcı profili
+│
+└── 📂 colab_training/                 # Model eğitim kaynakları
+    ├── 01_stage1_bert_classifier.ipynb   # Kategori sınıflandırma eğitimi
+    ├── 02_stage2_unsupervised_ml.ipynb   # Kümeleme & anomali eğitimi
+    ├── 03_stage3_forecasting_shap.ipynb  # LightGBM tahmin eğitimi
+    ├── 04_stage4_xgboost_coach.ipynb     # XGBoost karar eğitimi
+    └── 📂 data/                          # Eğitim veri setleri
+```
 
-### 1. Projeyi İndir
+---
+
+## 🤖 ML Pipeline
+
+FinWise, yüklenen her ekstreyi 4 aşamalı bir AI zincirinden geçirir:
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                     Kullanıcı Ekstresi                          │
+│                  (CSV / Excel dosyası)                          │
+└────────────────────────┬────────────────────────────────────────┘
+                         │
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  AŞAMA 1 — Kategori Sınıflandırması                            │
+│                                                                 │
+│  TF-IDF vektörizasyonu  →  SVM sınıflandırıcısı                │
+│                                                                 │
+│  "MIGROS AŞ"        →  🛒 Market & Gıda                        │
+│  "NETFLIX"          →  🎬 Eğlence                              │
+│  "KİRA ÖDEMESI"     →  🏠 Fatura & Abonelik                    │
+└────────────────────────┬────────────────────────────────────────┘
+                         │
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  AŞAMA 2 — Kullanıcı Profili & Anomali Tespiti                  │
+│                                                                 │
+│  K-Means Kümeleme  →  Harcama tipi profili                      │
+│  Isolation Forest  →  Anormal işlem tespiti                     │
+│                                                                 │
+│  Çıktı: Tasarrufçu / Bütçeci / Risk Altında / Dengeli          │
+└────────────────────────┬────────────────────────────────────────┘
+                         │
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  AŞAMA 3 — Gelecek Ay Tahmini                                   │
+│                                                                 │
+│  LightGBM regresyon  →  Tahmini aylık gider                     │
+│  SHAP değerleri      →  "Neden bu tahmin?" açıklaması           │
+│                                                                 │
+│  Çıktı: ₺X,XXX  —  "Fatura harcamanız artış gösterdi..."       │
+└────────────────────────┬────────────────────────────────────────┘
+                         │
+                         ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  AŞAMA 4 — Finansal Karar Desteği                               │
+│                                                                 │
+│  XGBoost sınıflandırıcı  →  Eylem önerisi                       │
+│                                                                 │
+│  🟢 Tasarruf Et   —  Birikim için uygun ortam                   │
+│  🔵 Yatırım Yap   —  Sermaye büyütme fırsatı                    │
+│  🟡 Beklet        —  Dengeli yaklaş, beklet                     │
+└────────────────────────┬────────────────────────────────────────┘
+                         │
+                         ▼
+                 Dashboard + PDF Rapor
+```
+
+### Desteklenen Kategoriler (13 adet)
+
+`ALISVERIS` · `BANKA_KESINTISI` · `DIGER` · `EGITIM` · `EGLENCE` · `FATURA` · `MARKET` · `NAKIT_ISLEMLERI` · `SAGLIK` · `SEYAHAT` · `ULASIM` · `VIRMAN` · `YEME_ICME`
+
+---
+
+## 🚀 Hızlı Başlangıç
+
+### Ön Koşullar
+
+Kurulu olması gereken araçlar:
+
+| Araç | Minimum Versiyon | Kontrol |
+|------|-----------------|---------|
+| Python | 3.10 | `python --version` |
+| pip | 23+ | `pip --version` |
+| Node.js | 18 | `node --version` |
+| npm | 9+ | `npm --version` |
+
+### 1. Depoyu İndir
 
 ```bash
 git clone https://github.com/Sara-Toptamur36/finwise.git
 cd finwise
 ```
 
-### 2. Backend
+### 2. Backend Kurulumu
 
 ```bash
+# Sanal ortam oluştur (önerilir)
+python -m venv .venv
+
+# Etkinleştir
+# Windows:
+.venv\Scripts\activate
+# macOS / Linux:
+source .venv/bin/activate
+
 # Bağımlılıkları kur
 pip install -r backend/requirements.txt
+```
 
-# Sunucuyu başlat (proje kök dizininden)
+#### Eğitilmiş Modelleri Kur
+
+Pipeline'ın çalışması için `colab_training/outputs/` klasöründe eğitilmiş modeller (`.pkl` dosyaları) olmalıdır. İki seçeneğiniz var:
+
+**A) Google Colab'da Eğit** — `colab_training/` klasöründeki notebook'ları sırasıyla çalıştırın:
+```
+01 → 02 → 03 → 04
+```
+
+**B) Demo Modunu Kullan** — Model olmadan da uygulama çalışır; sadece demo analizi yapar.
+
+### 3. Backend'i Başlat
+
+```bash
+# Proje kök dizininden çalıştırın
 python -m uvicorn backend.main:app --reload --port 8000
 ```
 
-Backend çalışıyor: `http://localhost:8000`
-API Dokümantasyonu: `http://localhost:8000/docs`
+✅ API: `http://localhost:8000`
+📚 Swagger Docs: `http://localhost:8000/docs`
 
-### 3. Frontend
+### 4. Frontend Kurulumu
 
 ```bash
 cd frontend
-
-# Bağımlılıkları kur (ilk seferinde)
 npm install
-
-# Geliştirme sunucusunu başlat
 npm run dev
 ```
 
-Uygulama açık: `http://localhost:5173`
+✅ Uygulama: `http://localhost:5173`
 
-> **Not:** Backend ve frontend'i aynı anda iki ayrı terminalde çalıştırın.
+### 5. Yapılandırma
 
----
-
-## 📁 Proje Yapısı
-
+İlk çalıştırmada `backend/users.json` otomatik oluşturulur. Örnek yapı için:
+```bash
+cp backend/users.json.example backend/users.json
 ```
-finwise/
-│
-├── backend/                        # FastAPI backend
-│   ├── main.py                     # Uygulama giriş noktası
-│   ├── requirements.txt            # Python bağımlılıkları
-│   ├── routers/
-│   │   ├── auth.py                 # Kayıt / Giriş / Şifre değiştirme
-│   │   ├── analysis.py             # Dosya yükleme, analiz, geçmiş
-│   │   ├── reports.py              # PDF rapor oluşturma
-│   │   ├── scenario.py             # Senaryo simülasyonu
-│   │   └── demo.py                 # Demo profil verileri
-│   └── services/
-│       └── pipeline_service.py     # ML pipeline entegrasyonu
-│
-├── frontend/                       # React + Vite frontend
-│   └── src/
-│       ├── pages/
-│       │   ├── LandingPage.jsx     # Ana sayfa
-│       │   ├── Dashboard.jsx       # Gösterge paneli
-│       │   ├── AnalyzePage.jsx     # Analiz & sonuçlar
-│       │   ├── ScenarioPage.jsx    # Senaryo testi
-│       │   ├── ReportsPage.jsx     # Rapor geçmişi
-│       │   ├── SettingsPage.jsx    # Ayarlar
-│       │   ├── LoginPage.jsx       # Giriş
-│       │   └── RegisterPage.jsx    # Kayıt
-│       ├── components/
-│       │   ├── Layout.jsx          # Sayfa iskeleti
-│       │   ├── PasswordInput.jsx   # Şifre göster/gizle input
-│       │   └── Logo.jsx            # FinWise logo
-│       ├── context/
-│       │   └── AuthContext.jsx     # Global auth & analiz state
-│       └── hooks/
-│           └── useSettings.js      # localStorage ayar yönetimi
-│
-├── bank_ai_pipeline.py             # 4 aşamalı ana ML pipeline
-├── rules_engine.py                 # Kural tabanlı karar motoru
-├── kvkk_masker.py                  # Kişisel veri maskeleme (KVKK)
-├── demo_profiles.json              # Demo kullanıcı verileri
-│
-└── colab_training/                 # Model eğitim notebook'ları
-    ├── 01_stage1_bert_classifier.ipynb
-    ├── 02_stage2_unsupervised_ml.ipynb
-    ├── 03_stage3_forecasting_shap.ipynb
-    ├── 04_stage4_xgboost_coach.ipynb
-    └── data/                       # Eğitim veri setleri
-```
-
----
-
-## 🤖 ML Pipeline Detayı
-
-```
-Excel/CSV Ekstresi
-       │
-       ▼
-┌─────────────────────────────────┐
-│  Stage 1 — Kategori Sınıflama   │  TF-IDF + SVM
-│  "MIGROS" → Market & Gıda       │
-└─────────────────────────────────┘
-       │
-       ▼
-┌─────────────────────────────────┐
-│  Stage 2 — Kullanıcı Profili    │  K-Means + Isolation Forest
-│  Kümeleme + Anomali Tespiti     │
-└─────────────────────────────────┘
-       │
-       ▼
-┌─────────────────────────────────┐
-│  Stage 3 — Harcama Tahmini      │  LightGBM + SHAP
-│  Gelecek ay: ~₺X,XXX            │
-└─────────────────────────────────┘
-       │
-       ▼
-┌─────────────────────────────────┐
-│  Stage 4 — Karar Desteği        │  XGBoost Coach
-│  Öneri: Tasarruf Et / Yatırım   │
-└─────────────────────────────────┘
-       │
-       ▼
-  Dashboard + PDF Rapor
-```
-
----
-
-## 📊 API Endpoint'leri
-
-| Endpoint | Method | Açıklama |
-|---|---|---|
-| `/api/auth/register` | POST | Yeni hesap oluştur |
-| `/api/auth/login` | POST | Giriş yap |
-| `/api/auth/change-password` | POST | Şifre değiştir (auth gerekli) |
-| `/api/analysis/upload` | POST | Ekstreyi yükle ve analiz et |
-| `/api/analysis/result` | GET | Son analiz sonucunu getir |
-| `/api/analysis/history` | GET | Rapor geçmişini listele |
-| `/api/analysis/result/{id}` | GET | Belirli raporu getir |
-| `/api/scenario/test` | POST | Senaryo simülasyonu çalıştır |
-| `/api/reports/pdf` | POST | PDF rapor oluştur ve indir |
-| `/api/reports/excel` | POST | Excel raporu indir |
-| `/api/demo/personas` | GET | Demo persona listesi |
-| `/api/demo/analyze/{id}` | GET | Demo analiz sonucu |
-
----
-
-## 🎭 Demo Modu
-
-Kayıt olmadan 3 hazır profille uygulamayı test edin:
-
-| Persona | Profil | Özellik |
-|---|---|---|
-| **Ahmet Bey** | Yüksek Borç Riski | HIGH_DEBT_RISK — tasarruf önerileri |
-| **Ayşe Hanım** | Tasarrufçu | GREAT_SAVER — yatırım önerileri |
-| **Zeynep Hanım** | Bütçeleme Gerekli | NEEDS_BUDGETING — harcama uyarıları |
 
 ---
 
 ## 📋 Desteklenen Veri Formatı
 
-Minimum CSV/Excel yapısı:
+### Minimum CSV Yapısı
 
 ```csv
 tarih,aciklama,tutar
 2026-06-01,MIGROS AS,-450.00
 2026-06-05,MAAS ODEMESI,35000.00
-2026-06-08,NETFLIX,-149.00
+2026-06-08,NETFLIX ABONELIK,-149.00
+2026-06-10,BIM MARKET,-380.50
+2026-06-15,AKARYAKIT,-650.00
 ```
 
-| Sütun | Açıklama | Format |
-|---|---|---|
-| `tarih` | İşlem tarihi | YYYY-MM-DD veya GG.AA.YYYY |
-| `aciklama` | İşlem açıklaması | Serbest metin |
-| `tutar` | Tutar (gider eksi, gelir artı) | Ondalıklı sayı |
+### Sütun Açıklamaları
+
+| Sütun | Açıklama | Format | Zorunlu |
+|-------|----------|--------|---------|
+| `tarih` | İşlem tarihi | `YYYY-MM-DD` veya `GG.AA.YYYY` | ✅ |
+| `aciklama` | İşlem açıklaması (banka metni) | Serbest metin | ✅ |
+| `tutar` | Tutar (gider için negatif, gelir için pozitif) | Ondalıklı sayı | ✅ |
+
+> **İpucu:** Çoğu Türk bankasının internet şubesinden CSV veya Excel formatında ekstre indirilebilir. Sütun adları Türkçe veya İngilizce olabilir; sistem otomatik tanır.
+
+---
+
+## 📡 API Endpointleri
+
+Tam API dokümantasyonu için: `http://localhost:8000/docs`
+
+### Kimlik Doğrulama
+
+| Endpoint | Method | Açıklama |
+|----------|--------|----------|
+| `POST /api/auth/register` | — | Yeni hesap oluştur |
+| `POST /api/auth/login` | — | Giriş yap, token al |
+| `POST /api/auth/change-password` | 🔒 Auth | Şifre değiştir |
+| `GET  /api/auth/me` | 🔒 Auth | Oturum bilgisi |
+
+### Analiz
+
+| Endpoint | Method | Açıklama |
+|----------|--------|----------|
+| `POST /api/analysis/upload` | 🔒 Auth | Ekstreyi yükle ve analiz et |
+| `GET  /api/analysis/result` | 🔒 Auth | Son analiz sonucunu getir |
+| `GET  /api/analysis/history` | 🔒 Auth | Rapor geçmişini listele |
+| `GET  /api/analysis/result/{id}` | 🔒 Auth | Belirli raporu getir |
+| `DELETE /api/analysis/data` | 🔒 Auth | Analiz verisi sil |
+| `DELETE /api/analysis/reports` | 🔒 Auth | Rapor geçmişi temizle |
+
+### Raporlar
+
+| Endpoint | Method | Açıklama |
+|----------|--------|----------|
+| `POST /api/reports/pdf` | 🔒 Auth | PDF rapor oluştur ve indir |
+| `POST /api/reports/excel` | 🔒 Auth | Excel raporu indir |
+
+### Senaryo & Demo
+
+| Endpoint | Method | Açıklama |
+|----------|--------|----------|
+| `POST /api/scenario/test` | — | Senaryo simülasyonu çalıştır |
+| `GET  /api/demo/personas` | — | Demo persona listesi |
+| `GET  /api/demo/analyze/{id}` | — | Demo analiz sonucu |
+
+> 🔒 **Auth:** İstek header'ında `Authorization: Bearer <token>` gerektirir.
+
+---
+
+## 🎭 Demo Modu
+
+Kayıt olmadan 3 farklı kullanıcı profiliyle uygulamayı test edin:
+
+| Persona | Finansal Profil | Özellik |
+|---------|----------------|---------|
+| 👨 **Ahmet Bey** | Yüksek Borç Riski | Giderleri gelirini aşıyor, acil önlem önerileri |
+| 👩 **Ayşe Hanım** | Mükemmel Tasarrufçu | Düzenli birikim, yatırım fırsatları |
+| 👩 **Zeynep Hanım** | Bütçeleme Gerekli | Dengesiz harcama dağılımı, kategori uyarıları |
 
 ---
 
 ## 🔒 Güvenlik
 
-- Şifreler **SHA-256** ile hashlenerek saklanır
-- API istekleri **Bearer Token** ile korunur
-- Şifre sıfırlama e-posta doğrulaması gerektirir
-- Kullanıcı verileri yerel sunucuda tutulur
-- **KVKK** uyumlu veri maskeleme desteği (`kvkk_masker.py`)
+- Şifreler **SHA-256** ile hashlenerek saklanır, düz metin hiçbir zaman tutulmaz
+- API istekleri **UUID Bearer token** ile korunur
+- Şifre sıfırlama **e-posta doğrulaması** gerektirir (e-posta altyapısı olmadan devre dışı)
+- Şifre değiştirme **mevcut şifre doğrulaması** yapılarak gerçekleştirilir
+- Kullanıcı verileri yalnızca **yerel sunucuda** tutulur, üçüncü taraflarla paylaşılmaz
+- **KVKK** uyumlu kişisel veri maskeleme (`kvkk_masker.py`)
+- `users.json` ve `reports_store.json` `.gitignore` ile versiyon kontrolü dışında
+
+---
+
+## 🧪 Geliştirme
+
+### Kod Yapısı Kuralları
+
+```
+backend/routers/   → Her kaynak için ayrı router dosyası
+backend/services/  → İş mantığı, ML bağlantısı
+frontend/pages/    → Her sayfa bir dosya, bileşen dışarıda tanımlanır*
+frontend/components/ → Paylaşılan UI bileşenleri
+```
+
+> \* **Önemli React Kuralı:** Bileşenleri her zaman parent bileşenin **dışında** tanımlayın. Bileşeni içeride tanımlamak her render'da yeniden oluşturulmasına, focus kaybına ve gereksiz unmount/remount'a neden olur.
+
+### Ortam Değişkenleri
+
+Şu an uygulama yapılandırması için ortam değişkeni kullanılmamaktadır. İleride eklemek için `backend/.env.example` dosyasını referans alın:
+
+```env
+# Backend yapılandırma (örnek)
+SECRET_KEY=your-secret-key-here
+DATABASE_URL=sqlite:///./finwise.db
+CORS_ORIGINS=http://localhost:5173
+```
+
+### Sık Kullanılan Komutlar
+
+```bash
+# Backend — geliştirme modunda başlat
+python -m uvicorn backend.main:app --reload --port 8000
+
+# Frontend — geliştirme sunucusu
+cd frontend && npm run dev
+
+# Frontend — prodüksiyon build
+cd frontend && npm run build
+
+# API dokümantasyonu
+# http://localhost:8000/docs (Swagger UI)
+# http://localhost:8000/redoc (ReDoc)
+```
+
+---
+
+## 🤝 Katkıda Bulunma
+
+Katkılarınızı bekliyoruz! Detaylar için [CONTRIBUTING.md](CONTRIBUTING.md) dosyasına bakın.
+
+**Kısaca:**
+
+1. Depoyu fork edin
+2. Özellik dalı oluşturun: `git checkout -b ozellik/yeni-ozellik`
+3. Değişikliklerinizi commit edin: `git commit -m 'feat: yeni özellik ekle'`
+4. Dalı push edin: `git push origin ozellik/yeni-ozellik`
+5. Pull Request açın
 
 ---
 
 ## 📄 Lisans
 
-Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır.
+Bu proje [MIT Lisansı](LICENSE) altında dağıtılmaktadır. Detaylar için `LICENSE` dosyasına bakın.
+
+---
+
+## 👤 Geliştirici
+
+**Sara Toptamur**
+
+- GitHub: [@Sara-Toptamur36](https://github.com/Sara-Toptamur36)
 
 ---
 
 <div align="center">
-  <strong>FinWise</strong> — Paranızı daha iyi anlayın 💚
+
+**⭐ Beğendiyseniz yıldız vermeyi unutmayın!**
+
+*FinWise — Paranızı daha iyi anlayın* 💚
+
 </div>

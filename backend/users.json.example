@@ -1,0 +1,11 @@
+{
+  "_comment": "Bu dosyayı 'users.json' olarak kopyalayın. İlk kayıt yapıldığında otomatik oluşturulur.",
+  "_format": {
+    "email@ornek.com": {
+      "name": "Ad Soyad",
+      "email": "email@ornek.com",
+      "password": "<SHA-256 hash — düz metin değil>",
+      "created_at": "2026-01-01T00:00:00"
+    }
+  }
+}
