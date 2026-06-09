@@ -40,7 +40,7 @@ FinWise, CSV veya Excel formatındaki **banka ekstrelerinizi** analiz ederek siz
 
 | # | Özellik | Açıklama |
 |---|---------|----------|
-| 🏷️ | **Otomatik Kategorizasyon** | TF-IDF + SVM ile 13 farklı harcama kategorisi |
+| 🏷️ | **Otomatik Kategorizasyon** | Turkish ELECTRA + TF-IDF/SVC ensemble ile 13 farklı harcama kategorisi |
 | 👤 | **Harcama Profili** | K-Means kümeleme ile kişisel finansal profil |
 | 📈 | **Gelecek Ay Tahmini** | LightGBM + SHAP ile tahmin ve açıklama |
 | 🤖 | **AI Finansal Teşhis** | XGBoost ile Tasarruf Et / Yatırım Yap / Beklet |
@@ -55,7 +55,7 @@ FinWise, CSV veya Excel formatındaki **banka ekstrelerinizi** analiz ederek siz
 
 ## 🛠️ Teknoloji Yığını
 
-### Backend
+### Backend (Çalışma Zamanı)
 | Paket | Versiyon | Kullanım |
 |-------|----------|---------|
 | **FastAPI** | 0.111 | REST API çerçevesi |
@@ -64,10 +64,18 @@ FinWise, CSV veya Excel formatındaki **banka ekstrelerinizi** analiz ederek siz
 | **OpenPyXL** | 3.1 | Excel okuma/yazma |
 | **ReportLab** | 4.2 | PDF oluşturma |
 | **Matplotlib** | — | PDF içi grafikler |
-| **scikit-learn** | — | TF-IDF, SVM, K-Means |
-| **LightGBM** | — | Harcama tahmini |
-| **XGBoost** | — | Karar destek modeli |
+| **scikit-learn** | — | TF-IDF, Kalibre SVC, K-Means, Isolation Forest |
+| **LightGBM** | — | Harcama tahmini (Stage 3) |
+| **XGBoost** | — | Karar destek modeli (Stage 4) |
 | **SHAP** | — | Model açıklanabilirliği |
+
+### Model Eğitimi (Google Colab — GPU)
+| Paket | Kullanım |
+|-------|---------|
+| **PyTorch** | ELECTRA model eğitimi |
+| **Transformers (HuggingFace)** | `dbmdz/electra-small-turkish-cased-discriminator` |
+| **Focal Loss** | Sınıf dengesizliği giderme (γ=2.0–3.0) |
+| **scikit-learn** | TF-IDF + SVC, ensemble değerlendirme |
 
 ### Frontend
 | Paket | Versiyon | Kullanım |
@@ -157,13 +165,33 @@ FinWise, yüklenen her ekstreyi 4 aşamalı bir AI zincirinden geçirir:
                          │
                          ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│  AŞAMA 1 — Kategori Sınıflandırması                            │
+│  AŞAMA 1 — Kategori Sınıflandırması  (Ensemble v16)            │
 │                                                                 │
-│  TF-IDF vektörizasyonu  →  SVM sınıflandırıcısı                │
+│  ┌─────────────────────────────────────────────────────────┐   │
+│  │  Katman A — Kural Motoru (rules_engine.py)              │   │
+│  │  50+ regex kural → kesin eşleşme → doğrudan kategori   │   │
+│  │  "ATM" → NAKİT, "NETFLIX" → EGLENCE, "EFT" → VİRMAN   │   │
+│  └──────────────────────┬──────────────────────────────────┘   │
+│                         │  Kural eşleşmezse ↓                  │
+│  ┌──────────────────────┴──────────────────────────────────┐   │
+│  │  Katman B — Turkish ELECTRA (Colab GPU eğitimi)         │   │
+│  │  dbmdz/electra-small-turkish-cased-discriminator        │   │
+│  │  Faz 1: Sentetik veri (60K örnek, Focal Loss γ=2)       │   │
+│  │  Faz 2: Gerçek banka verisi (layer-wise LR, early stop) │   │
+│  │  Test F1: 0.9121                                        │   │
+│  └──────────────────────┬──────────────────────────────────┘   │
+│                         │  ↕ α-ağırlıklı birleşim              │
+│  ┌──────────────────────┴──────────────────────────────────┐   │
+│  │  Katman C — TF-IDF + Kalibre SVC (Çalışma Zamanı)      │   │
+│  │  Word n-gram (80K özellik) + Char n-gram (40K özellik)  │   │
+│  │  Tiered oversampling + Confidence threshold             │   │
+│  └──────────────────────┬──────────────────────────────────┘   │
+│                         │                                       │
+│  Ensemble (B×(1-α) + C×α) → Makro F1 = 0.9369                 │
 │                                                                 │
 │  "MIGROS AŞ"        →  🛒 Market & Gıda                        │
 │  "NETFLIX"          →  🎬 Eğlence                              │
-│  "KİRA ÖDEMESI"     →  🏠 Fatura & Abonelik                    │
+│  "TRENDYOLYEM"      →  🍔 Yeme & İçme                          │
 └────────────────────────┬────────────────────────────────────────┘
                          │
                          ▼
