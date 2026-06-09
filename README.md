@@ -13,6 +13,7 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-3-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 ![LightGBM](https://img.shields.io/badge/LightGBM-ML-brightgreen?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-FFD21E?style=flat-square)](https://huggingface.co/datasets/Saraa34/finwise-egitim-verisi)
 
 **Banka ekstrelerinizi yükleyin — yapay zeka harcamalarınızı anlasın, geleceğinizi tahmin etsin.**
 
@@ -76,6 +77,29 @@ FinWise, CSV veya Excel formatındaki **banka ekstrelerinizi** analiz ederek siz
 | **Transformers (HuggingFace)** | `dbmdz/electra-small-turkish-cased-discriminator` |
 | **Focal Loss** | Sınıf dengesizliği giderme (γ=2.0–3.0) |
 | **scikit-learn** | TF-IDF + SVC, ensemble değerlendirme |
+
+---
+
+## 📦 Eğitim Veri Seti
+
+Modellerin eğitildiği veri seti Hugging Face üzerinde **Gated Dataset** olarak yayınlanmıştır.
+Sayfayı herkes görebilir, ancak dosyaları indirmek için erişim talep etmeniz gerekir.
+
+[![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-finwise--egitim--verisi-FFD21E?style=flat-square)](https://huggingface.co/datasets/Saraa34/finwise-egitim-verisi)
+
+**İçerik:**
+| Dosya | Açıklama | Kullanım |
+|-------|----------|---------|
+| `bankaverison.xlsx` | Etiketli gerçek banka işlemleri | Stage 1 eğitim |
+| `YENİVERİTEST.xlsx` | Gerçek işlem test seti | Stage 1 test |
+| `bert_training_data.csv` | ELECTRA eğitim verisi | Stage 1 eğitim |
+| `enhanced_synthetic_bank_data.csv` | Zengin sentetik işlemler (29 MB) | Stage 1 eğitim |
+| `synthetic_budget_data.csv` | Sentetik bütçe verisi | Stage 1 eğitim |
+| `ultimate_synthetic_bank_data.csv` | Nihai sentetik işlemler | Stage 2 eğitim |
+| `stage2_user_monthly_features.csv` | Kullanıcı aylık özellik matrisi | Stage 2 eğitim |
+| `stage4_coached_users.csv` | Karar etiketi verisi | Stage 4 eğitim |
+
+> Erişim için: [Request Access](https://huggingface.co/datasets/Saraa34/finwise-egitim-verisi)
 
 ### Frontend
 | Paket | Versiyon | Kullanım |
