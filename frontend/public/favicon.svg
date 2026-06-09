@@ -1,0 +1,26 @@
+<svg viewBox="0 0 64 64" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Arka plan -->
+  <rect width="64" height="64" rx="14" fill="#f0fdf4"/>
+
+  <!-- Daire gövde -->
+  <circle cx="32" cy="44" r="17" fill="white" stroke="#14532d" stroke-width="2.8"/>
+
+  <!-- Sol yaprak -->
+  <path d="M32,27 C27,17 15,19 18,26 C20,31 27,29 32,27Z" fill="#14532d"/>
+  <!-- Sağ yaprak -->
+  <path d="M32,27 C37,17 49,19 46,26 C44,31 37,29 32,27Z" fill="#14532d"/>
+
+  <!-- Bar grafikler (daire içinde) -->
+  <clipPath id="fw-favicon-clip">
+    <circle cx="32" cy="44" r="17"/>
+  </clipPath>
+  <g clip-path="url(#fw-favicon-clip)">
+    <rect x="16" y="50" width="6"  height="14" rx="1" fill="#22c55e"/>
+    <rect x="25" y="41" width="6"  height="23" rx="1" fill="#22c55e"/>
+    <rect x="34" y="31" width="6"  height="33" rx="1" fill="#22c55e"/>
+    <!-- Yükselen ok çizgisi -->
+    <line x1="13" y1="59" x2="45" y2="28" stroke="#22c55e" stroke-width="2.4" stroke-linecap="round"/>
+    <!-- Ok ucu -->
+    <path d="M41,26 L45,28 L43.5,32" fill="none" stroke="#22c55e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+# ── Python ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Ortam değişkenleri ───────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Hassas kullanıcı verileri (GIT'E EKLENMEMELİ) ───────────────────────
+backend/users.json
+backend/reports_store.json
+
+# ── Yüklenen dosyalar ────────────────────────────────────────────────────
+uploads/
+*.xlsx
+*.csv
+!colab_training/data/*.csv
+
+# ── Node.js ──────────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ── Eğitim model dosyaları (büyük ikili dosyalar) ────────────────────────
+colab_training/outputs/*.pkl
+colab_training/outputs/*.pt
+colab_training/outputs/*.bin
+*.pkl
+*.pt
+
+# ── Eğitim verisi (kişisel/hassas) ──────────────────────────────────────
+colab_training/data/*.xlsx
+
+# ── IDE / Editör ─────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Log dosyaları ────────────────────────────────────────────────────────
+*.log
+logs/

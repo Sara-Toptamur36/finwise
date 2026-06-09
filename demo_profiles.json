@@ -1,0 +1,2312 @@
+{
+    "Ahmet_Bey": [
+        {
+            "tarih": "2026-03-01",
+            "aciklama": "BİM BİRLEŞİK MAĞAZALAR",
+            "tutar": 485.6,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-01",
+            "aciklama": "YEMEKSEPETİ",
+            "tutar": 578.99,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-01",
+            "aciklama": "NETFLIX",
+            "tutar": 511.41,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-01",
+            "aciklama": "APPLE COM BILL",
+            "tutar": 421.21,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-01",
+            "aciklama": "APPLE COM BILL",
+            "tutar": 526.38,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-01",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 585.74,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-01",
+            "aciklama": "TRENDYOL",
+            "tutar": 472.58,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-01",
+            "aciklama": "BOYNER",
+            "tutar": 455.89,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-02",
+            "aciklama": "ŞOK MARKET",
+            "tutar": 521.66,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-02",
+            "aciklama": "NUSRET STEAKHOUSE",
+            "tutar": 410.81,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-02",
+            "aciklama": "TRENDYOL",
+            "tutar": 430.1,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-02",
+            "aciklama": "ZARA GİYİM",
+            "tutar": 470.59,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-03",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 570.87,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-03",
+            "aciklama": "GETİR YEMEK",
+            "tutar": 477.07,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-04",
+            "aciklama": "TRENDYOL",
+            "tutar": 469.16,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-04",
+            "aciklama": "NUSRET STEAKHOUSE",
+            "tutar": 457.13,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-05",
+            "aciklama": "MAAŞ ÖDEMESİ",
+            "tutar": 40000,
+            "is_income": true
+        },
+        {
+            "tarih": "2026-03-05",
+            "aciklama": "HEPSİBURADA",
+            "tutar": 534.07,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-05",
+            "aciklama": "MAAŞ ÖDEMESİ",
+            "tutar": 40000,
+            "is_income": true
+        },
+        {
+            "tarih": "2026-03-05",
+            "aciklama": "YEMEKSEPETİ",
+            "tutar": 434.27,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-05",
+            "aciklama": "BURGER KING",
+            "tutar": 500.46,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-06",
+            "aciklama": "KİRA ÖDEMESİ",
+            "tutar": 15000,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-06",
+            "aciklama": "ŞOK MARKET",
+            "tutar": 505.38,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-06",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 589.12,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-06",
+            "aciklama": "YEMEKSEPETİ",
+            "tutar": 539.98,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-06",
+            "aciklama": "KİRA ÖDEMESİ",
+            "tutar": 15000,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-06",
+            "aciklama": "MARTI MOBILITE",
+            "tutar": 495.4,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-07",
+            "aciklama": "TRENDYOL",
+            "tutar": 580.92,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-07",
+            "aciklama": "AMAZON TURKEY",
+            "tutar": 503.64,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-08",
+            "aciklama": "BURGER KING",
+            "tutar": 590.94,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-08",
+            "aciklama": "STARBUCKS COFFEE",
+            "tutar": 580.11,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-08",
+            "aciklama": "HEPSİBURADA",
+            "tutar": 528.48,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-08",
+            "aciklama": "SPOTIFY",
+            "tutar": 485.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-08",
+            "aciklama": "BURGER KING",
+            "tutar": 533.17,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-08",
+            "aciklama": "STARBUCKS COFFEE",
+            "tutar": 544.22,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-08",
+            "aciklama": "TRENDYOL",
+            "tutar": 496.13,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-08",
+            "aciklama": "STEAM GAMES",
+            "tutar": 512.12,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-09",
+            "aciklama": "BOYNER",
+            "tutar": 431.84,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-09",
+            "aciklama": "AMAZON TURKEY",
+            "tutar": 434.81,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-10",
+            "aciklama": "ENERJİSA ELEKTRİK FATURASI",
+            "tutar": 1200.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-10",
+            "aciklama": "YEMEKSEPETİ",
+            "tutar": 584.92,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-10",
+            "aciklama": "BOYNER",
+            "tutar": 554.72,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-10",
+            "aciklama": "TRENDYOL",
+            "tutar": 585.28,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-10",
+            "aciklama": "ENERJİSA ELEKTRİK FATURASI",
+            "tutar": 1200.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-10",
+            "aciklama": "STARBUCKS COFFEE",
+            "tutar": 417.04,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-10",
+            "aciklama": "GETİR YEMEK",
+            "tutar": 445.94,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-10",
+            "aciklama": "GETİR YEMEK",
+            "tutar": 431.14,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-10",
+            "aciklama": "BOYNER",
+            "tutar": 447.24,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-11",
+            "aciklama": "GETİR YEMEK",
+            "tutar": 472.12,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-11",
+            "aciklama": "TRENDYOL",
+            "tutar": 570.37,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-11",
+            "aciklama": "NETFLIX",
+            "tutar": 556.98,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-11",
+            "aciklama": "ŞOK MARKET",
+            "tutar": 557.77,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-11",
+            "aciklama": "ZARA GİYİM",
+            "tutar": 515.93,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-11",
+            "aciklama": "HEPSİBURADA",
+            "tutar": 541.62,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-11",
+            "aciklama": "BOYNER",
+            "tutar": 476.38,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-11",
+            "aciklama": "HEPSİBURADA",
+            "tutar": 558.58,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-12",
+            "aciklama": "İSKİ SU FATURASI",
+            "tutar": 600.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-12",
+            "aciklama": "BİM BİRLEŞİK MAĞAZALAR",
+            "tutar": 526.38,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-12",
+            "aciklama": "İSKİ SU FATURASI",
+            "tutar": 600.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-13",
+            "aciklama": "YEMEKSEPETİ",
+            "tutar": 401.14,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-13",
+            "aciklama": "ZARA GİYİM",
+            "tutar": 440.01,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-13",
+            "aciklama": "BURGER KING",
+            "tutar": 418.41,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-13",
+            "aciklama": "AMAZON TURKEY",
+            "tutar": 565.69,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-13",
+            "aciklama": "SPOTIFY",
+            "tutar": 490.78,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-14",
+            "aciklama": "TRENDYOL",
+            "tutar": 441.72,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-14",
+            "aciklama": "TRENDYOL",
+            "tutar": 551.51,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-14",
+            "aciklama": "MARTI MOBILITE",
+            "tutar": 440.78,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-14",
+            "aciklama": "BİM BİRLEŞİK MAĞAZALAR",
+            "tutar": 525.25,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-15",
+            "aciklama": "TÜRK TELEKOM İNTERNET",
+            "tutar": 1200.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-15",
+            "aciklama": "NUSRET STEAKHOUSE",
+            "tutar": 509.22,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-15",
+            "aciklama": "BOYNER",
+            "tutar": 427.31,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-15",
+            "aciklama": "TÜRK TELEKOM İNTERNET",
+            "tutar": 1200.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-15",
+            "aciklama": "ŞOK MARKET",
+            "tutar": 427.31,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-16",
+            "aciklama": "NUSRET STEAKHOUSE",
+            "tutar": 475.26,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-16",
+            "aciklama": "NUSRET STEAKHOUSE",
+            "tutar": 466.22,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-16",
+            "aciklama": "AMAZON TURKEY",
+            "tutar": 574.72,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-16",
+            "aciklama": "BİM BİRLEŞİK MAĞAZALAR",
+            "tutar": 545.78,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-16",
+            "aciklama": "STARBUCKS COFFEE",
+            "tutar": 406.48,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-17",
+            "aciklama": "AMAZON TURKEY",
+            "tutar": 533.25,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-17",
+            "aciklama": "APPLE COM BILL",
+            "tutar": 585.75,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-18",
+            "aciklama": "TRENDYOL",
+            "tutar": 508.76,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-18",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 454.33,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-18",
+            "aciklama": "TRENDYOL",
+            "tutar": 595.13,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-19",
+            "aciklama": "YEMEKSEPETİ",
+            "tutar": 519.22,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-19",
+            "aciklama": "STEAM GAMES",
+            "tutar": 530.57,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-19",
+            "aciklama": "GETİR YEMEK",
+            "tutar": 484.15,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-19",
+            "aciklama": "YEMEKSEPETİ",
+            "tutar": 504.86,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-20",
+            "aciklama": "ŞOK MARKET",
+            "tutar": 556.66,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-21",
+            "aciklama": "CARREFOURSA",
+            "tutar": 595.18,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-21",
+            "aciklama": "BURGER KING",
+            "tutar": 454.02,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-21",
+            "aciklama": "AMAZON TURKEY",
+            "tutar": 453.33,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-21",
+            "aciklama": "TRENDYOL",
+            "tutar": 546.83,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-22",
+            "aciklama": "ZARA GİYİM",
+            "tutar": 514.27,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-23",
+            "aciklama": "AMAZON TURKEY",
+            "tutar": 494.1,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-23",
+            "aciklama": "SPOTIFY",
+            "tutar": 573.98,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-23",
+            "aciklama": "MARTI MOBILITE",
+            "tutar": 594.71,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-23",
+            "aciklama": "CARREFOURSA",
+            "tutar": 544.9,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-23",
+            "aciklama": "GETİR YEMEK",
+            "tutar": 485.4,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-23",
+            "aciklama": "HEPSİBURADA",
+            "tutar": 455.97,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-23",
+            "aciklama": "APPLE COM BILL",
+            "tutar": 514.78,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-24",
+            "aciklama": "AMAZON TURKEY",
+            "tutar": 447.68,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-24",
+            "aciklama": "HEPSİBURADA",
+            "tutar": 403.52,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-24",
+            "aciklama": "PETROLOFİSİ",
+            "tutar": 488.63,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-24",
+            "aciklama": "PETROLOFİSİ",
+            "tutar": 436.11,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-24",
+            "aciklama": "BOYNER",
+            "tutar": 523.77,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-24",
+            "aciklama": "ZARA GİYİM",
+            "tutar": 414.82,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-24",
+            "aciklama": "TRENDYOL",
+            "tutar": 512.36,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-24",
+            "aciklama": "UBER",
+            "tutar": 555.18,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-25",
+            "aciklama": "BİM BİRLEŞİK MAĞAZALAR",
+            "tutar": 564.14,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-25",
+            "aciklama": "HEPSİBURADA",
+            "tutar": 529.46,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-25",
+            "aciklama": "ZARA GİYİM",
+            "tutar": 452.85,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-25",
+            "aciklama": "NUSRET STEAKHOUSE",
+            "tutar": 572.22,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-25",
+            "aciklama": "TRENDYOL",
+            "tutar": 585.15,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-25",
+            "aciklama": "NETFLIX",
+            "tutar": 414.27,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-25",
+            "aciklama": "MARTI MOBILITE",
+            "tutar": 490.05,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-26",
+            "aciklama": "STARBUCKS COFFEE",
+            "tutar": 450.84,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-26",
+            "aciklama": "BURGER KING",
+            "tutar": 401.86,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-26",
+            "aciklama": "ZARA GİYİM",
+            "tutar": 434.69,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-26",
+            "aciklama": "NUSRET STEAKHOUSE",
+            "tutar": 576.33,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-27",
+            "aciklama": "NETFLIX",
+            "tutar": 574.37,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-27",
+            "aciklama": "TRENDYOL",
+            "tutar": 483.72,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-27",
+            "aciklama": "APPLE COM BILL",
+            "tutar": 411.91,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-27",
+            "aciklama": "UBER",
+            "tutar": 537.43,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-28",
+            "aciklama": "ZARA GİYİM",
+            "tutar": 455.81,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-28",
+            "aciklama": "ZARA GİYİM",
+            "tutar": 537.18,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-28",
+            "aciklama": "YEMEKSEPETİ",
+            "tutar": 421.33,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-28",
+            "aciklama": "HEPSİBURADA",
+            "tutar": 409.45,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-28",
+            "aciklama": "AMAZON TURKEY",
+            "tutar": 455.12,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-28",
+            "aciklama": "SPOTIFY",
+            "tutar": 405.71,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-28",
+            "aciklama": "NETFLIX",
+            "tutar": 475.57,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-01",
+            "aciklama": "STARBUCKS COFFEE",
+            "tutar": 553.86,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-02",
+            "aciklama": "GETİR YEMEK",
+            "tutar": 416.15,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-03",
+            "aciklama": "HEPSİBURADA",
+            "tutar": 464.71,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-03",
+            "aciklama": "APPLE COM BILL",
+            "tutar": 400.68,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-04",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 524.44,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-04",
+            "aciklama": "ŞOK MARKET",
+            "tutar": 450.34,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-04",
+            "aciklama": "ZARA GİYİM",
+            "tutar": 546.8,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-04",
+            "aciklama": "STEAM GAMES",
+            "tutar": 555.8,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-05",
+            "aciklama": "MAAŞ ÖDEMESİ",
+            "tutar": 40000,
+            "is_income": true
+        },
+        {
+            "tarih": "2026-04-05",
+            "aciklama": "YEMEKSEPETİ",
+            "tutar": 447.71,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-05",
+            "aciklama": "NUSRET STEAKHOUSE",
+            "tutar": 593.41,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-05",
+            "aciklama": "SPOTIFY",
+            "tutar": 403.73,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-06",
+            "aciklama": "KİRA ÖDEMESİ",
+            "tutar": 15000,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-06",
+            "aciklama": "YEMEKSEPETİ",
+            "tutar": 425.58,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-06",
+            "aciklama": "HEPSİBURADA",
+            "tutar": 495.08,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-06",
+            "aciklama": "APPLE COM BILL",
+            "tutar": 504.39,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-06",
+            "aciklama": "SPOTIFY",
+            "tutar": 568.28,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-07",
+            "aciklama": "BİM BİRLEŞİK MAĞAZALAR",
+            "tutar": 582.7,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-07",
+            "aciklama": "STARBUCKS COFFEE",
+            "tutar": 404.28,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-07",
+            "aciklama": "TRENDYOL",
+            "tutar": 519.53,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-08",
+            "aciklama": "GETİR YEMEK",
+            "tutar": 590.42,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-08",
+            "aciklama": "GETİR YEMEK",
+            "tutar": 480.24,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-08",
+            "aciklama": "BURGER KING",
+            "tutar": 465.35,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-08",
+            "aciklama": "ZARA GİYİM",
+            "tutar": 402.34,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-09",
+            "aciklama": "ZARA GİYİM",
+            "tutar": 529.02,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-09",
+            "aciklama": "NETFLIX",
+            "tutar": 477.57,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-09",
+            "aciklama": "MARTI MOBILITE",
+            "tutar": 573.9,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-10",
+            "aciklama": "ENERJİSA ELEKTRİK FATURASI",
+            "tutar": 1200.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-10",
+            "aciklama": "STARBUCKS COFFEE",
+            "tutar": 413.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-10",
+            "aciklama": "TRENDYOL",
+            "tutar": 569.17,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-10",
+            "aciklama": "BOYNER",
+            "tutar": 400.39,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-11",
+            "aciklama": "YEMEKSEPETİ",
+            "tutar": 550.61,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-12",
+            "aciklama": "İSKİ SU FATURASI",
+            "tutar": 600.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-12",
+            "aciklama": "GETİR YEMEK",
+            "tutar": 436.98,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-12",
+            "aciklama": "ZARA GİYİM",
+            "tutar": 531.73,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-12",
+            "aciklama": "HEPSİBURADA",
+            "tutar": 405.6,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-13",
+            "aciklama": "CARREFOURSA",
+            "tutar": 502.25,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-13",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 462.12,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-13",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 448.7,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-13",
+            "aciklama": "MARTI MOBILITE",
+            "tutar": 499.17,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-14",
+            "aciklama": "STARBUCKS COFFEE",
+            "tutar": 480.82,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-14",
+            "aciklama": "AMAZON TURKEY",
+            "tutar": 573.3,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-15",
+            "aciklama": "TÜRK TELEKOM İNTERNET",
+            "tutar": 1200.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-15",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 567.16,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-15",
+            "aciklama": "HEPSİBURADA",
+            "tutar": 470.36,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-15",
+            "aciklama": "TRENDYOL",
+            "tutar": 543.25,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-16",
+            "aciklama": "BOYNER",
+            "tutar": 440.15,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-16",
+            "aciklama": "AMAZON TURKEY",
+            "tutar": 470.04,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-16",
+            "aciklama": "PETROLOFİSİ",
+            "tutar": 483.97,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-16",
+            "aciklama": "MARTI MOBILITE",
+            "tutar": 404.63,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-17",
+            "aciklama": "APPLE COM BILL",
+            "tutar": 478.38,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-18",
+            "aciklama": "BOYNER",
+            "tutar": 536.29,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-19",
+            "aciklama": "BİM BİRLEŞİK MAĞAZALAR",
+            "tutar": 550.38,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-19",
+            "aciklama": "TRENDYOL",
+            "tutar": 401.68,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-20",
+            "aciklama": "ZARA GİYİM",
+            "tutar": 522.49,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-21",
+            "aciklama": "BURGER KING",
+            "tutar": 562.1,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-21",
+            "aciklama": "HEPSİBURADA",
+            "tutar": 452.29,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-23",
+            "aciklama": "TRENDYOL",
+            "tutar": 438.57,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-25",
+            "aciklama": "STARBUCKS COFFEE",
+            "tutar": 530.97,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-26",
+            "aciklama": "NUSRET STEAKHOUSE",
+            "tutar": 488.81,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-26",
+            "aciklama": "HEPSİBURADA",
+            "tutar": 425.07,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-27",
+            "aciklama": "TRENDYOL",
+            "tutar": 440.69,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-28",
+            "aciklama": "AMAZON TURKEY",
+            "tutar": 599.55,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-28",
+            "aciklama": "BOYNER",
+            "tutar": 419.49,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-28",
+            "aciklama": "NETFLIX",
+            "tutar": 487.08,
+            "is_income": false
+        }
+    ],
+    "Ayse_Hanim": [
+        {
+            "tarih": "2026-03-02",
+            "aciklama": "PETROLOFİSİ",
+            "tutar": 563.37,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-04",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 443.87,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-04",
+            "aciklama": "ŞOK MARKET",
+            "tutar": 590.01,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-05",
+            "aciklama": "MAAŞ ÖDEMESİ",
+            "tutar": 50000,
+            "is_income": true
+        },
+        {
+            "tarih": "2026-03-05",
+            "aciklama": "CARREFOURSA",
+            "tutar": 596.42,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-05",
+            "aciklama": "MAAŞ ÖDEMESİ",
+            "tutar": 50000,
+            "is_income": true
+        },
+        {
+            "tarih": "2026-03-06",
+            "aciklama": "KİRA ÖDEMESİ",
+            "tutar": 12000,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-06",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 416.38,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-06",
+            "aciklama": "KİRA ÖDEMESİ",
+            "tutar": 12000,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-07",
+            "aciklama": "YATIRIM HESABINA VİRMAN",
+            "tutar": 25000,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-07",
+            "aciklama": "ZARA GİYİM",
+            "tutar": 475.99,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-07",
+            "aciklama": "YATIRIM HESABINA VİRMAN",
+            "tutar": 25000,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-08",
+            "aciklama": "İSTANBULKART DOLUM",
+            "tutar": 437.23,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-08",
+            "aciklama": "PETROLOFİSİ",
+            "tutar": 402.63,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-10",
+            "aciklama": "ENERJİSA ELEKTRİK FATURASI",
+            "tutar": 800.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-10",
+            "aciklama": "ENERJİSA ELEKTRİK FATURASI",
+            "tutar": 800.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-10",
+            "aciklama": "YEMEKSEPETİ",
+            "tutar": 473.66,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-11",
+            "aciklama": "CARREFOURSA",
+            "tutar": 488.82,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-12",
+            "aciklama": "İSKİ SU FATURASI",
+            "tutar": 400.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-12",
+            "aciklama": "İSKİ SU FATURASI",
+            "tutar": 400.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-12",
+            "aciklama": "NUSRET STEAKHOUSE",
+            "tutar": 561.42,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-13",
+            "aciklama": "GETİR YEMEK",
+            "tutar": 549.62,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-13",
+            "aciklama": "ZARA GİYİM",
+            "tutar": 568.97,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-13",
+            "aciklama": "BOYNER",
+            "tutar": 523.03,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-13",
+            "aciklama": "PETROLOFİSİ",
+            "tutar": 543.12,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-15",
+            "aciklama": "TÜRK TELEKOM İNTERNET",
+            "tutar": 800.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-15",
+            "aciklama": "BİM BİRLEŞİK MAĞAZALAR",
+            "tutar": 586.11,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-15",
+            "aciklama": "YEMEKSEPETİ",
+            "tutar": 533.97,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-15",
+            "aciklama": "TÜRK TELEKOM İNTERNET",
+            "tutar": 800.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-17",
+            "aciklama": "BİM BİRLEŞİK MAĞAZALAR",
+            "tutar": 467.41,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-18",
+            "aciklama": "CARREFOURSA",
+            "tutar": 493.65,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-19",
+            "aciklama": "UBER",
+            "tutar": 503.67,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-20",
+            "aciklama": "BİM BİRLEŞİK MAĞAZALAR",
+            "tutar": 403.97,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-20",
+            "aciklama": "ŞOK MARKET",
+            "tutar": 434.38,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-20",
+            "aciklama": "UBER",
+            "tutar": 524.93,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-21",
+            "aciklama": "ŞOK MARKET",
+            "tutar": 408.85,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-23",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 585.63,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-23",
+            "aciklama": "BİM BİRLEŞİK MAĞAZALAR",
+            "tutar": 474.03,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-23",
+            "aciklama": "BİM BİRLEŞİK MAĞAZALAR",
+            "tutar": 401.13,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-23",
+            "aciklama": "BURGER KING",
+            "tutar": 420.81,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-23",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 563.36,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-23",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 529.1,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-26",
+            "aciklama": "TRENDYOL",
+            "tutar": 464.69,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-27",
+            "aciklama": "STARBUCKS COFFEE",
+            "tutar": 446.27,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-01",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 591.03,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-02",
+            "aciklama": "CARREFOURSA",
+            "tutar": 476.78,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-03",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 538.14,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-05",
+            "aciklama": "MAAŞ ÖDEMESİ",
+            "tutar": 50000,
+            "is_income": true
+        },
+        {
+            "tarih": "2026-04-05",
+            "aciklama": "ŞOK MARKET",
+            "tutar": 484.7,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-06",
+            "aciklama": "KİRA ÖDEMESİ",
+            "tutar": 12000,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-07",
+            "aciklama": "CARREFOURSA",
+            "tutar": 460.57,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-07",
+            "aciklama": "YATIRIM HESABINA VİRMAN",
+            "tutar": 25000,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-10",
+            "aciklama": "ENERJİSA ELEKTRİK FATURASI",
+            "tutar": 800.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-11",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 458.74,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-12",
+            "aciklama": "İSKİ SU FATURASI",
+            "tutar": 400.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-14",
+            "aciklama": "PETROLOFİSİ",
+            "tutar": 511.37,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-15",
+            "aciklama": "TÜRK TELEKOM İNTERNET",
+            "tutar": 800.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-21",
+            "aciklama": "ŞOK MARKET",
+            "tutar": 513.35,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-22",
+            "aciklama": "PETROLOFİSİ",
+            "tutar": 497.13,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-23",
+            "aciklama": "BURGER KING",
+            "tutar": 513.72,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-23",
+            "aciklama": "TRENDYOL",
+            "tutar": 565.36,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-23",
+            "aciklama": "AMAZON TURKEY",
+            "tutar": 499.56,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-26",
+            "aciklama": "CARREFOURSA",
+            "tutar": 582.81,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-26",
+            "aciklama": "BURGER KING",
+            "tutar": 467.55,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-26",
+            "aciklama": "MARTI MOBILITE",
+            "tutar": 572.51,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-28",
+            "aciklama": "YEMEKSEPETİ",
+            "tutar": 544.04,
+            "is_income": false
+        }
+    ],
+    "Zeynep_Hanim": [
+        {
+            "tarih": "2026-03-01",
+            "aciklama": "CARREFOURSA",
+            "tutar": 402.05,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-01",
+            "aciklama": "AMAZON TURKEY",
+            "tutar": 434.69,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-01",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 402.72,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-02",
+            "aciklama": "CARREFOURSA",
+            "tutar": 573.81,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-02",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 508.66,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-02",
+            "aciklama": "ŞOK MARKET",
+            "tutar": 494.46,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-02",
+            "aciklama": "ZARA GİYİM",
+            "tutar": 465.83,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-03",
+            "aciklama": "CARREFOURSA",
+            "tutar": 594.59,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-03",
+            "aciklama": "ZARA GİYİM",
+            "tutar": 488.54,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-03",
+            "aciklama": "BOYNER",
+            "tutar": 504.09,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-03",
+            "aciklama": "BOYNER",
+            "tutar": 445.38,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-04",
+            "aciklama": "BİM BİRLEŞİK MAĞAZALAR",
+            "tutar": 577.46,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-04",
+            "aciklama": "AMAZON TURKEY",
+            "tutar": 407.72,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-04",
+            "aciklama": "PETROLOFİSİ",
+            "tutar": 575.05,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-05",
+            "aciklama": "MAAŞ ÖDEMESİ",
+            "tutar": 35000,
+            "is_income": true
+        },
+        {
+            "tarih": "2026-03-05",
+            "aciklama": "İSTANBULKART DOLUM",
+            "tutar": 503.52,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-05",
+            "aciklama": "MAAŞ ÖDEMESİ",
+            "tutar": 35000,
+            "is_income": true
+        },
+        {
+            "tarih": "2026-03-06",
+            "aciklama": "KİRA ÖDEMESİ",
+            "tutar": 14000,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-06",
+            "aciklama": "CARREFOURSA",
+            "tutar": 554.98,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-06",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 551.52,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-06",
+            "aciklama": "HEPSİBURADA",
+            "tutar": 469.57,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-06",
+            "aciklama": "KİRA ÖDEMESİ",
+            "tutar": 14000,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-06",
+            "aciklama": "GETİR YEMEK",
+            "tutar": 451.75,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-06",
+            "aciklama": "GETİR YEMEK",
+            "tutar": 574.85,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-08",
+            "aciklama": "YEMEKSEPETİ",
+            "tutar": 486.56,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-08",
+            "aciklama": "YEMEKSEPETİ",
+            "tutar": 440.41,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-08",
+            "aciklama": "UBER",
+            "tutar": 433.45,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-09",
+            "aciklama": "HEPSİBURADA",
+            "tutar": 498.77,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-09",
+            "aciklama": "İSTANBULKART DOLUM",
+            "tutar": 550.88,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-09",
+            "aciklama": "BİM BİRLEŞİK MAĞAZALAR",
+            "tutar": 461.95,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-10",
+            "aciklama": "ENERJİSA ELEKTRİK FATURASI",
+            "tutar": 1000.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-10",
+            "aciklama": "ENERJİSA ELEKTRİK FATURASI",
+            "tutar": 1000.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-10",
+            "aciklama": "ŞOK MARKET",
+            "tutar": 593.09,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-10",
+            "aciklama": "HEPSİBURADA",
+            "tutar": 526.55,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-10",
+            "aciklama": "İSTANBULKART DOLUM",
+            "tutar": 564.49,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-11",
+            "aciklama": "AMAZON TURKEY",
+            "tutar": 443.87,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-11",
+            "aciklama": "HEPSİBURADA",
+            "tutar": 445.33,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-11",
+            "aciklama": "BİM BİRLEŞİK MAĞAZALAR",
+            "tutar": 436.29,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-12",
+            "aciklama": "İSKİ SU FATURASI",
+            "tutar": 500.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-12",
+            "aciklama": "GETİR YEMEK",
+            "tutar": 412.62,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-12",
+            "aciklama": "MARTI MOBILITE",
+            "tutar": 559.57,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-12",
+            "aciklama": "İSKİ SU FATURASI",
+            "tutar": 500.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-12",
+            "aciklama": "STARBUCKS COFFEE",
+            "tutar": 594.68,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-13",
+            "aciklama": "YEMEKSEPETİ",
+            "tutar": 590.8,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-14",
+            "aciklama": "CARREFOURSA",
+            "tutar": 442.48,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-14",
+            "aciklama": "BURGER KING",
+            "tutar": 466.06,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-14",
+            "aciklama": "YEMEKSEPETİ",
+            "tutar": 499.39,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-14",
+            "aciklama": "NUSRET STEAKHOUSE",
+            "tutar": 422.68,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-15",
+            "aciklama": "TÜRK TELEKOM İNTERNET",
+            "tutar": 1000.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-15",
+            "aciklama": "İSTANBULKART DOLUM",
+            "tutar": 549.54,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-15",
+            "aciklama": "TÜRK TELEKOM İNTERNET",
+            "tutar": 1000.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-16",
+            "aciklama": "BOYNER",
+            "tutar": 418.01,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-17",
+            "aciklama": "PETROLOFİSİ",
+            "tutar": 586.36,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-18",
+            "aciklama": "GETİR YEMEK",
+            "tutar": 532.07,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-18",
+            "aciklama": "AMAZON TURKEY",
+            "tutar": 594.32,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-19",
+            "aciklama": "CARREFOURSA",
+            "tutar": 510.27,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-19",
+            "aciklama": "NUSRET STEAKHOUSE",
+            "tutar": 553.9,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-19",
+            "aciklama": "UBER",
+            "tutar": 518.25,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-20",
+            "aciklama": "TRENDYOL",
+            "tutar": 522.48,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-20",
+            "aciklama": "PETROLOFİSİ",
+            "tutar": 416.38,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-21",
+            "aciklama": "BİM BİRLEŞİK MAĞAZALAR",
+            "tutar": 472.28,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-21",
+            "aciklama": "CARREFOURSA",
+            "tutar": 436.23,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-21",
+            "aciklama": "CARREFOURSA",
+            "tutar": 595.5,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-21",
+            "aciklama": "CARREFOURSA",
+            "tutar": 581.14,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-21",
+            "aciklama": "CARREFOURSA",
+            "tutar": 575.81,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-21",
+            "aciklama": "GETİR YEMEK",
+            "tutar": 419.41,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-21",
+            "aciklama": "ZARA GİYİM",
+            "tutar": 587.03,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-22",
+            "aciklama": "YEMEKSEPETİ",
+            "tutar": 527.71,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-22",
+            "aciklama": "ZARA GİYİM",
+            "tutar": 415.02,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-22",
+            "aciklama": "BOYNER",
+            "tutar": 578.24,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-22",
+            "aciklama": "UBER",
+            "tutar": 597.56,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-22",
+            "aciklama": "ZARA GİYİM",
+            "tutar": 442.92,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-22",
+            "aciklama": "HEPSİBURADA",
+            "tutar": 448.08,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-23",
+            "aciklama": "BİM BİRLEŞİK MAĞAZALAR",
+            "tutar": 417.07,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-23",
+            "aciklama": "BURGER KING",
+            "tutar": 579.3,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-23",
+            "aciklama": "BOYNER",
+            "tutar": 437.03,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-24",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 470.86,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-24",
+            "aciklama": "PETROLOFİSİ",
+            "tutar": 468.58,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-26",
+            "aciklama": "BİM BİRLEŞİK MAĞAZALAR",
+            "tutar": 405.97,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-27",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 569.66,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-27",
+            "aciklama": "BİM BİRLEŞİK MAĞAZALAR",
+            "tutar": 575.86,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-03-28",
+            "aciklama": "YEMEKSEPETİ",
+            "tutar": 404.27,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-01",
+            "aciklama": "BOYNER",
+            "tutar": 487.97,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-02",
+            "aciklama": "BURGER KING",
+            "tutar": 471.5,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-03",
+            "aciklama": "CARREFOURSA",
+            "tutar": 579.69,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-03",
+            "aciklama": "HEPSİBURADA",
+            "tutar": 503.82,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-04",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 580.85,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-04",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 480.11,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-05",
+            "aciklama": "MAAŞ ÖDEMESİ",
+            "tutar": 35000,
+            "is_income": true
+        },
+        {
+            "tarih": "2026-04-06",
+            "aciklama": "KİRA ÖDEMESİ",
+            "tutar": 14000,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-06",
+            "aciklama": "BURGER KING",
+            "tutar": 538.22,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-07",
+            "aciklama": "AMAZON TURKEY",
+            "tutar": 545.22,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-07",
+            "aciklama": "TRENDYOL",
+            "tutar": 457.01,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-08",
+            "aciklama": "ŞOK MARKET",
+            "tutar": 503.74,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-08",
+            "aciklama": "ŞOK MARKET",
+            "tutar": 583.93,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-09",
+            "aciklama": "TRENDYOL",
+            "tutar": 483.3,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-10",
+            "aciklama": "ENERJİSA ELEKTRİK FATURASI",
+            "tutar": 1000.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-10",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 560.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-11",
+            "aciklama": "PETROLOFİSİ",
+            "tutar": 545.43,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-11",
+            "aciklama": "UBER",
+            "tutar": 573.65,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-11",
+            "aciklama": "İSTANBULKART DOLUM",
+            "tutar": 451.64,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-12",
+            "aciklama": "İSKİ SU FATURASI",
+            "tutar": 500.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-12",
+            "aciklama": "BİM BİRLEŞİK MAĞAZALAR",
+            "tutar": 405.59,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-15",
+            "aciklama": "TÜRK TELEKOM İNTERNET",
+            "tutar": 1000.0,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-16",
+            "aciklama": "BURGER KING",
+            "tutar": 579.82,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-16",
+            "aciklama": "HEPSİBURADA",
+            "tutar": 502.74,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-16",
+            "aciklama": "TRENDYOL",
+            "tutar": 446.15,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-17",
+            "aciklama": "CARREFOURSA",
+            "tutar": 570.55,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-18",
+            "aciklama": "BURGER KING",
+            "tutar": 502.54,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-18",
+            "aciklama": "PETROLOFİSİ",
+            "tutar": 471.16,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-19",
+            "aciklama": "ŞOK MARKET",
+            "tutar": 414.65,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-19",
+            "aciklama": "AMAZON TURKEY",
+            "tutar": 587.29,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-20",
+            "aciklama": "GETİR YEMEK",
+            "tutar": 458.59,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-20",
+            "aciklama": "ZARA GİYİM",
+            "tutar": 571.68,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-21",
+            "aciklama": "YEMEKSEPETİ",
+            "tutar": 420.81,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-22",
+            "aciklama": "ŞOK MARKET",
+            "tutar": 434.66,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-23",
+            "aciklama": "BİM BİRLEŞİK MAĞAZALAR",
+            "tutar": 570.07,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-23",
+            "aciklama": "NUSRET STEAKHOUSE",
+            "tutar": 553.92,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-23",
+            "aciklama": "NUSRET STEAKHOUSE",
+            "tutar": 467.34,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-24",
+            "aciklama": "UBER",
+            "tutar": 507.27,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-27",
+            "aciklama": "MARTI MOBILITE",
+            "tutar": 467.85,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-28",
+            "aciklama": "MİGROS A.Ş.",
+            "tutar": 525.14,
+            "is_income": false
+        },
+        {
+            "tarih": "2026-04-28",
+            "aciklama": "BOYNER",
+            "tutar": 487.16,
+            "is_income": false
+        }
+    ]
+}
